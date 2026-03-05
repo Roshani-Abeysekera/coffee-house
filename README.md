@@ -58,30 +58,6 @@
 
 ---
 
-## ⚙️ Project Structure
-
-coffee-house/
-│
-├── client/ # React frontend
-│ ├── public/ # Static files
-│ └── src/
-│ ├── assets/ # Images, icons, fonts
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Page-level components
-│ └── App.js # Main React app
-│
-├── server/ # Node.js backend
-│ ├── controllers/ # Route controllers
-│ ├── models/ # Database models
-│ ├── routes/ # API routes
-│ └── server.js # Entry point for backend
-│
-├── screenshots/ # Images and GIFs for README
-├── README.md # Project documentation
-└── package.json # Project metadata and dependencies
-
----
-
 ## ⚙️ Installation
 
 ```bash
