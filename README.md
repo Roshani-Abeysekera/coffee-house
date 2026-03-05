@@ -20,7 +20,7 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="screenshots/home.png" alt="Home Page Screenshot" width="600"/>
+  <img src="screenshots/homepage.png" alt="Home Page Screenshot" width="600"/>
   <br>
   <em>Home Page</em>
 </p>
