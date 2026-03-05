@@ -95,8 +95,8 @@ Product inventory management
 
 👨‍💻 Author
 
-Your Name
-GitHub: https://github.com/yourusername
+Roshani Abeysekera
+GitHub: https://github.com/Roshani-Abeysekera
 
 📄 License
 
