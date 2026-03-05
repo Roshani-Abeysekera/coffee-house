@@ -1,0 +1,17 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model MenuItem {
+  id          Int      @id @default(autoincrement())
+  name        String
+  description String
+  price       Float
+  image       String
+  category    String
+  createdAt   DateTime @default(now())
+}
