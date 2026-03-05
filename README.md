@@ -26,16 +26,16 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/menu.png" alt="Menu Page Screenshot" width="600"/>
+  <img src="screenshots/menupage.png" alt="Menu Page Screenshot" width="600"/>
   <br>
   <em>Menu Page</em>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="screenshots/demo.gif" alt="App Demo GIF" width="600"/>
   <br>
   <em>Interactive Demo</em>
-</p>
+</p> -->
 
 ---
 
