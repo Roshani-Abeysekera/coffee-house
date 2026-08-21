@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-ink;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+    letter-spacing: -0.01em;
+  }
+
+  ::selection {
+    background-color: #BE6A3A;
+    color: #F6F0E6;
+  }
+
+  :focus-visible {
+    outline: 2px solid #BE6A3A;
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Reusable "menu board" leader line — the signature motif used to
+     connect an item's name to its price, like a real café chalkboard. */
+  .leader-line {
+    @apply flex-1 border-b border-dotted border-coffee/25 mx-3 translate-y-[-4px];
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-gold text-cream font-medium px-6 py-3 rounded-full
+      shadow-soft hover:bg-clay-600 hover:shadow-card active:scale-[0.98] transition-all duration-200 disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 border border-coffee/20 text-coffee font-medium px-6 py-3 rounded-full
+      hover:border-coffee/40 hover:bg-coffee/5 active:scale-[0.98] transition-all duration-200 disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-2.5 border border-coffee/15 rounded-lg bg-paper text-ink placeholder:text-muted/70
+      focus:outline-none focus:ring-2 focus:ring-gold/40 focus:border-gold/60 transition-colors;
+  }
+
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-gold;
+  }
+}
