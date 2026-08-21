@@ -136,6 +136,12 @@ The app automatically switches to live Stripe Checkout once this is set — no c
 - Full user account management
 - Product inventory management
 
+## 🎥 Live Demo
+
+[▶️ Watch the Full Project Demo](https://youtu.be/P_5EP_f4Yk8)
+
+This video demonstrates the main features and functionality of the Coffee House full-stack web application.
+
 ## 👨‍💻 Author
 
 **Roshani Abeysekera**
